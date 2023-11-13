@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #822c2c;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px;
+    color: #822c2c;   
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+#weather-info {
+    margin-bottom: 20px;
+}
+
+#search-history {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city-history {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.forecast-item {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #822c2c;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.forecast-item:hover{
+    background-color: rgb(45, 149, 149);
+    transform: scale(1.01);
+}
